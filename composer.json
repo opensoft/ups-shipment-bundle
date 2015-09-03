@@ -1,0 +1,34 @@
+{
+    "name":        "eduard-sukharev/ups-shipment-bundle",
+    "type":        "symfony-bundle",
+    "keywords":    ["UPS", "Symfony", "API"],
+    "homepage":    "https://github.com/eduard-sukharev/ups-shipment-bundle",
+    "license":     "MIT",
+    "description": "This bundle provides the ability to create shipments with UPS API.",
+
+    "authors": [
+        {
+            "name": "Eduard Sukharev",
+            "email": "eduard.sukharev@opensoftdev.ru",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:gabrielbull/php-ups-api.git"
+        }
+    ],
+
+    "require": {
+        "php":                      ">=5.3.3",
+        "symfony/framework-bundle": ">=2.0,<=2.3.x-dev",
+        "gabrielbull/ups-api":     "~0.5.1"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Opensoft\\Bundle\\UpsShipmentBundle": "src"
+        }
+    }
+}
