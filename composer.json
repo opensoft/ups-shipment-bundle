@@ -16,14 +16,14 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:gabrielbull/php-ups-api.git"
+            "url": "git@github.com:eduard-sukharev/php-ups-api.git"
         }
     ],
 
     "require": {
         "php":                      ">=5.3.3",
         "symfony/framework-bundle": ">=2.0,<=2.3.x-dev",
-        "gabrielbull/ups-api":     "~0.5.1"
+        "eduard-sukharev/php-ups-api":     "~0.6.0"
     },
 
     "autoload": {
