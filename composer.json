@@ -27,7 +27,7 @@
 
     "autoload": {
         "psr-0": {
-            "Opensoft\\Bundle\\UpsShipmentBundle": "src"
+            "Opensoft\\Bundle\\UpsShipmentBundle": ""
         }
     }
 }
