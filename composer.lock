@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ec401b38496503f12059a9c497f40792",
+    "hash": "dc579b098e47ca61acf8e337c5e5bb94",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -406,16 +406,16 @@
         },
         {
             "name": "gabrielbull/ups-api",
-            "version": "0.6.0-dev",
+            "version": "0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/opensoft/php-ups-api.git",
-                "reference": "af24a310dfec5f44feb31c34ceb44949ed38d9e7"
+                "reference": "985b91324ebe3247ab90bb8f4ca4e9ebf94104d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/opensoft/php-ups-api/zipball/af24a310dfec5f44feb31c34ceb44949ed38d9e7",
-                "reference": "af24a310dfec5f44feb31c34ceb44949ed38d9e7",
+                "url": "https://api.github.com/repos/opensoft/php-ups-api/zipball/985b91324ebe3247ab90bb8f4ca4e9ebf94104d1",
+                "reference": "985b91324ebe3247ab90bb8f4ca4e9ebf94104d1",
                 "shasum": ""
             },
             "require": {
@@ -429,7 +429,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-develop": "0.5.1-dev"
+                    "dev-develop": "0.6.0-dev"
                 }
             },
             "autoload": {
@@ -464,6 +464,10 @@
                 {
                     "name": "Stefan Doorn",
                     "email": "stefan@efectos.nl"
+                },
+                {
+                    "name": "Eduard Sukharev",
+                    "email": "sukharev.eh@gmail.com"
                 }
             ],
             "description": "PHP UPS API",
@@ -479,9 +483,9 @@
                 "wrapper"
             ],
             "support": {
-                "source": "https://github.com/opensoft/php-ups-api/tree/0.5.1"
+                "source": "https://github.com/opensoft/php-ups-api/tree/0.6.0-dev"
             },
-            "time": "2015-08-28 09:33:07"
+            "time": "2015-09-22 12:35:41"
         },
         {
             "name": "guzzlehttp/guzzle",
