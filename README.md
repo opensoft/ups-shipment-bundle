@@ -7,12 +7,12 @@ This bundle provides Shipping service to create shipments via UPS /ShipConfirm a
 Installation
 ------------
 
-Add `eduard-sukharev/ups-shipment-bundle` to `require` section of your `composer.json`, e.g.:
+Add `opensoft/ups-shipment-bundle` to `require` section of your `composer.json`, e.g.:
 
 ```
     "require": {
         ...
-        "eduard-sukharev/ups-shipment-bundle": "~0.1",
+        "opensoft/ups-shipment-bundle": "^2.0",
         ...
     }
 ```
